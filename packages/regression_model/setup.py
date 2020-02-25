@@ -22,7 +22,7 @@ def list_reqs(fname='requirements.txt'):
     with open(fname) as fd:
         return fd.read().splitlines()
 
-
+# print(list_reqs())
 # The rest you shouldn't have to touch too much :)
 # ------------------------------------------------
 # Except, perhaps the License and Trove Classifiers!
@@ -30,6 +30,8 @@ def list_reqs(fname='requirements.txt'):
 # Trove Classifier for that!
 
 here = os.path.abspath(os.path.dirname(__file__))
+fhere = os.path.abspath(os.path.dirname(__file__))+ '\\requirements.txt'
+# print(list_reqs(fhere))
 
 # Import the README and use it as the long-description.
 # Note: this will only work if 'README.md' is present in your MANIFEST.in file!
