@@ -107,7 +107,7 @@ jobs:
 
 
 
-  section_10_deploy_to_heroku:
+  deploy_to_heroku:
     <<: *defaults
     steps:
       - checkout
